@@ -12,7 +12,12 @@ text-align: center;
 </head>
 <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
 <div align="center">
-<img style="width:100%" src="1.gif"  title="发射爱心" >
+<img id="myimg" style="width:100%" src=""  title="发射爱心" >
 </div>
 <h1>@luoluo</h1>
 <div>
+<script>
+ var num = Math.ceil(Math.random() * 5);
+ var myimg=document.getElementById("myimg");
+ myimg.src=num+".gif";
+</script>
